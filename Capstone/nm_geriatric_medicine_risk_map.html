@@ -1,0 +1,1767 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e67932074dde2a5233f332b374edcd0f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_e67932074dde2a5233f332b374edcd0f" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_e67932074dde2a5233f332b374edcd0f = L.map(
+                "map_e67932074dde2a5233f332b374edcd0f",
+                {
+                    center: [34.5199, -105.8701],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 7,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_fb0d7aff13b82b9ab997f9f18cdcd3a9 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_fb0d7aff13b82b9ab997f9f18cdcd3a9.addTo(map_e67932074dde2a5233f332b374edcd0f);
+        
+    
+            var marker_cluster_f224adc0945c25e554d15ed00dfd1c20 = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            var marker_37ec5b3156271f33eb224eb8e1495b95 = L.marker(
+                [35.1104, -106.5781],
+                {
+}
+            ).addTo(marker_cluster_f224adc0945c25e554d15ed00dfd1c20);
+        
+    
+            var icon_5a74ca185a9596274711c49fb00269ab = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "heart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9fb34f8b696bbb93c0b097cf59ea81ff = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_046db6cdb18c2b49fb9d219ee4d0d6c5 = $(`<div id="html_046db6cdb18c2b49fb9d219ee4d0d6c5" style="width: 100.0%; height: 100.0%;">Dr. JILL RHYMES</div>`)[0];
+                popup_9fb34f8b696bbb93c0b097cf59ea81ff.setContent(html_046db6cdb18c2b49fb9d219ee4d0d6c5);
+            
+        
+
+        marker_37ec5b3156271f33eb224eb8e1495b95.bindPopup(popup_9fb34f8b696bbb93c0b097cf59ea81ff)
+        ;
+
+        
+    
+    
+                marker_37ec5b3156271f33eb224eb8e1495b95.setIcon(icon_5a74ca185a9596274711c49fb00269ab);
+            
+    
+            var marker_8a1b8f8de1106d8d37efd4b99f7bb5e9 = L.marker(
+                [35.9872, -106.0717],
+                {
+}
+            ).addTo(marker_cluster_f224adc0945c25e554d15ed00dfd1c20);
+        
+    
+            var icon_781380448aae4110af819306abd82d63 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "heart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_50849461c7a2aa4679189e3082b04623 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a307c08c4e8edc25c46127b52c9bd82f = $(`<div id="html_a307c08c4e8edc25c46127b52c9bd82f" style="width: 100.0%; height: 100.0%;">Dr. GEORGINA LEAMON</div>`)[0];
+                popup_50849461c7a2aa4679189e3082b04623.setContent(html_a307c08c4e8edc25c46127b52c9bd82f);
+            
+        
+
+        marker_8a1b8f8de1106d8d37efd4b99f7bb5e9.bindPopup(popup_50849461c7a2aa4679189e3082b04623)
+        ;
+
+        
+    
+    
+                marker_8a1b8f8de1106d8d37efd4b99f7bb5e9.setIcon(icon_781380448aae4110af819306abd82d63);
+            
+    
+            var marker_3beb271d8ec1c21a446e425fa0ceff79 = L.marker(
+                [35.1476, -107.8526],
+                {
+}
+            ).addTo(marker_cluster_f224adc0945c25e554d15ed00dfd1c20);
+        
+    
+            var icon_37b693b6576ff0b420c986a66cd6c2a3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "heart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a10db810eb550385ee2cd9f6da3f0126 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_59d176b3f5003f79e7e678945caa4c91 = $(`<div id="html_59d176b3f5003f79e7e678945caa4c91" style="width: 100.0%; height: 100.0%;">Dr. JOSEPH FEAGAN</div>`)[0];
+                popup_a10db810eb550385ee2cd9f6da3f0126.setContent(html_59d176b3f5003f79e7e678945caa4c91);
+            
+        
+
+        marker_3beb271d8ec1c21a446e425fa0ceff79.bindPopup(popup_a10db810eb550385ee2cd9f6da3f0126)
+        ;
+
+        
+    
+    
+                marker_3beb271d8ec1c21a446e425fa0ceff79.setIcon(icon_37b693b6576ff0b420c986a66cd6c2a3);
+            
+    
+            var marker_fb1b4a519f3a5a0372538768c76c7a84 = L.marker(
+                [32.3244, -106.6683],
+                {
+}
+            ).addTo(marker_cluster_f224adc0945c25e554d15ed00dfd1c20);
+        
+    
+            var icon_f0d4a5082a44265fb9dc5221da4cdea6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "heart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7b55afc2ccd3b9f74c7904daea8a553d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_85951bb8efa66b338d76b962fef562c4 = $(`<div id="html_85951bb8efa66b338d76b962fef562c4" style="width: 100.0%; height: 100.0%;">Dr. JESUS DURAN</div>`)[0];
+                popup_7b55afc2ccd3b9f74c7904daea8a553d.setContent(html_85951bb8efa66b338d76b962fef562c4);
+            
+        
+
+        marker_fb1b4a519f3a5a0372538768c76c7a84.bindPopup(popup_7b55afc2ccd3b9f74c7904daea8a553d)
+        ;
+
+        
+    
+    
+                marker_fb1b4a519f3a5a0372538768c76c7a84.setIcon(icon_f0d4a5082a44265fb9dc5221da4cdea6);
+            
+    
+            var marker_d7a0cd5dd364ec3a001ff3d291aee9db = L.marker(
+                [32.2318, -107.7466],
+                {
+}
+            ).addTo(marker_cluster_f224adc0945c25e554d15ed00dfd1c20);
+        
+    
+            var icon_7bccbe83ee36684b56f548909b2cc0fc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "heart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_87a245cdca802e5c3be41156b86d0364 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7a13b2dd6fc637c23b85c8046afc854b = $(`<div id="html_7a13b2dd6fc637c23b85c8046afc854b" style="width: 100.0%; height: 100.0%;">Dr. GEORGE WILLIAMS</div>`)[0];
+                popup_87a245cdca802e5c3be41156b86d0364.setContent(html_7a13b2dd6fc637c23b85c8046afc854b);
+            
+        
+
+        marker_d7a0cd5dd364ec3a001ff3d291aee9db.bindPopup(popup_87a245cdca802e5c3be41156b86d0364)
+        ;
+
+        
+    
+    
+                marker_d7a0cd5dd364ec3a001ff3d291aee9db.setIcon(icon_7bccbe83ee36684b56f548909b2cc0fc);
+            
+    
+            var marker_718b564c845e07fe059f92266c948468 = L.marker(
+                [32.79, -108.2749],
+                {
+}
+            ).addTo(marker_cluster_f224adc0945c25e554d15ed00dfd1c20);
+        
+    
+            var icon_13a27ba8f4e0d44165b63e7ff4bd4e19 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "heart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_149db1cd2f0fde039523b705a849b3b2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_59b9ca22a37802135011b769e63b6201 = $(`<div id="html_59b9ca22a37802135011b769e63b6201" style="width: 100.0%; height: 100.0%;">Dr. SYED MAHDI</div>`)[0];
+                popup_149db1cd2f0fde039523b705a849b3b2.setContent(html_59b9ca22a37802135011b769e63b6201);
+            
+        
+
+        marker_718b564c845e07fe059f92266c948468.bindPopup(popup_149db1cd2f0fde039523b705a849b3b2)
+        ;
+
+        
+    
+    
+                marker_718b564c845e07fe059f92266c948468.setIcon(icon_13a27ba8f4e0d44165b63e7ff4bd4e19);
+            
+    
+            var marker_f58e1abcb27e33ef3919b093f4e380c5 = L.marker(
+                [35.2493, -106.6818],
+                {
+}
+            ).addTo(marker_cluster_f224adc0945c25e554d15ed00dfd1c20);
+        
+    
+            var icon_c19785436a5c1eca4336e79a973fbac1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "heart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1bcb10cf9305d8c4d16467536d241b66 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eae99ad797ebb69ed892d4dea01f2915 = $(`<div id="html_eae99ad797ebb69ed892d4dea01f2915" style="width: 100.0%; height: 100.0%;">Dr. UCHE OBISIKE</div>`)[0];
+                popup_1bcb10cf9305d8c4d16467536d241b66.setContent(html_eae99ad797ebb69ed892d4dea01f2915);
+            
+        
+
+        marker_f58e1abcb27e33ef3919b093f4e380c5.bindPopup(popup_1bcb10cf9305d8c4d16467536d241b66)
+        ;
+
+        
+    
+    
+                marker_f58e1abcb27e33ef3919b093f4e380c5.setIcon(icon_c19785436a5c1eca4336e79a973fbac1);
+            
+    
+            var marker_59a000cdf268ad1f800fad23ddb7cdab = L.marker(
+                [35.5065, -108.7414],
+                {
+}
+            ).addTo(marker_cluster_f224adc0945c25e554d15ed00dfd1c20);
+        
+    
+            var icon_99e46a079a4e101edec4790376a27155 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "heart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8d169353ae8bd9aff3181c5bc8ec19ec = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_82ecda21160be28b873763364947853a = $(`<div id="html_82ecda21160be28b873763364947853a" style="width: 100.0%; height: 100.0%;">Dr. AYODELE ERINLE</div>`)[0];
+                popup_8d169353ae8bd9aff3181c5bc8ec19ec.setContent(html_82ecda21160be28b873763364947853a);
+            
+        
+
+        marker_59a000cdf268ad1f800fad23ddb7cdab.bindPopup(popup_8d169353ae8bd9aff3181c5bc8ec19ec)
+        ;
+
+        
+    
+    
+                marker_59a000cdf268ad1f800fad23ddb7cdab.setIcon(icon_99e46a079a4e101edec4790376a27155);
+            
+    
+            var marker_b5bcc6d441ab0a9659d3ecb7598e2c36 = L.marker(
+                [35.5065, -108.7414],
+                {
+}
+            ).addTo(marker_cluster_f224adc0945c25e554d15ed00dfd1c20);
+        
+    
+            var icon_8c55d8f4e69d7a8ab82e2a02a6ffe6c0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "heart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9450ea226e00d3ad762a640cd1424728 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_648b7a5afac193297dc68f40393f85ed = $(`<div id="html_648b7a5afac193297dc68f40393f85ed" style="width: 100.0%; height: 100.0%;">Dr. JOSEPH FEAGAN</div>`)[0];
+                popup_9450ea226e00d3ad762a640cd1424728.setContent(html_648b7a5afac193297dc68f40393f85ed);
+            
+        
+
+        marker_b5bcc6d441ab0a9659d3ecb7598e2c36.bindPopup(popup_9450ea226e00d3ad762a640cd1424728)
+        ;
+
+        
+    
+    
+                marker_b5bcc6d441ab0a9659d3ecb7598e2c36.setIcon(icon_8c55d8f4e69d7a8ab82e2a02a6ffe6c0);
+            
+    
+            var marker_e1c7a49e325188af1d10ca27002cc28f = L.marker(
+                [34.4126, -103.2214],
+                {
+}
+            ).addTo(marker_cluster_f224adc0945c25e554d15ed00dfd1c20);
+        
+    
+            var icon_c294ce8bc44dcd6d1d3b4e5c487e450c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "heart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7f3196218bd000f967e2cedd2eb81254 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b7bf6c71977ca3abc9acf1a2d8504ea1 = $(`<div id="html_b7bf6c71977ca3abc9acf1a2d8504ea1" style="width: 100.0%; height: 100.0%;">Dr. DHIRENDRA LAMBA</div>`)[0];
+                popup_7f3196218bd000f967e2cedd2eb81254.setContent(html_b7bf6c71977ca3abc9acf1a2d8504ea1);
+            
+        
+
+        marker_e1c7a49e325188af1d10ca27002cc28f.bindPopup(popup_7f3196218bd000f967e2cedd2eb81254)
+        ;
+
+        
+    
+    
+                marker_e1c7a49e325188af1d10ca27002cc28f.setIcon(icon_c294ce8bc44dcd6d1d3b4e5c487e450c);
+            
+    
+            var marker_654ec8e296a46229b20f632cf9b54dc8 = L.marker(
+                [34.4126, -103.2214],
+                {
+}
+            ).addTo(marker_cluster_f224adc0945c25e554d15ed00dfd1c20);
+        
+    
+            var icon_aec93c1f680112aa2c06e67504922b34 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "heart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a17c0d1c70c4a78cdda4fd31ec40be54 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_adf2dd5a53362eeca2960aa14f03a22c = $(`<div id="html_adf2dd5a53362eeca2960aa14f03a22c" style="width: 100.0%; height: 100.0%;">Dr. KATARZYNA WILAMOWSKA</div>`)[0];
+                popup_a17c0d1c70c4a78cdda4fd31ec40be54.setContent(html_adf2dd5a53362eeca2960aa14f03a22c);
+            
+        
+
+        marker_654ec8e296a46229b20f632cf9b54dc8.bindPopup(popup_a17c0d1c70c4a78cdda4fd31ec40be54)
+        ;
+
+        
+    
+    
+                marker_654ec8e296a46229b20f632cf9b54dc8.setIcon(icon_aec93c1f680112aa2c06e67504922b34);
+            
+    
+            var marker_457624f7ff5a6875b663d70ff7428c74 = L.marker(
+                [35.079, -106.6169],
+                {
+}
+            ).addTo(marker_cluster_f224adc0945c25e554d15ed00dfd1c20);
+        
+    
+            var icon_c181e0fda6875fef4a62dd65375571de = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "heart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_47bcaa8a597837dd1f18a794054b146c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_417be9aaefe9ee73f0337048f97b407f = $(`<div id="html_417be9aaefe9ee73f0337048f97b407f" style="width: 100.0%; height: 100.0%;">Dr. NITIN BUDHWAR</div>`)[0];
+                popup_47bcaa8a597837dd1f18a794054b146c.setContent(html_417be9aaefe9ee73f0337048f97b407f);
+            
+        
+
+        marker_457624f7ff5a6875b663d70ff7428c74.bindPopup(popup_47bcaa8a597837dd1f18a794054b146c)
+        ;
+
+        
+    
+    
+                marker_457624f7ff5a6875b663d70ff7428c74.setIcon(icon_c181e0fda6875fef4a62dd65375571de);
+            
+    
+            var marker_3313480c85156fcfd08bcc37395cf8ee = L.marker(
+                [35.079, -106.6169],
+                {
+}
+            ).addTo(marker_cluster_f224adc0945c25e554d15ed00dfd1c20);
+        
+    
+            var icon_d2f10f084f08c679dc562e167fc8dbca = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "heart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_97b6dd48d92727275546b6d5bee8e3c3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9896487634f41d662e2533ebccd8d54b = $(`<div id="html_9896487634f41d662e2533ebccd8d54b" style="width: 100.0%; height: 100.0%;">Dr. DAVID SCRASE</div>`)[0];
+                popup_97b6dd48d92727275546b6d5bee8e3c3.setContent(html_9896487634f41d662e2533ebccd8d54b);
+            
+        
+
+        marker_3313480c85156fcfd08bcc37395cf8ee.bindPopup(popup_97b6dd48d92727275546b6d5bee8e3c3)
+        ;
+
+        
+    
+    
+                marker_3313480c85156fcfd08bcc37395cf8ee.setIcon(icon_d2f10f084f08c679dc562e167fc8dbca);
+            
+    
+            var marker_d0c93671e3179dec4ee1cfae403db971 = L.marker(
+                [35.079, -106.6169],
+                {
+}
+            ).addTo(marker_cluster_f224adc0945c25e554d15ed00dfd1c20);
+        
+    
+            var icon_cec0dae4b991c30c463d26b6dcb7ae67 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "heart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1164078e6dc8967c2fb87983ff9a7394 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9271d293bfbf2776a50c429573c2a039 = $(`<div id="html_9271d293bfbf2776a50c429573c2a039" style="width: 100.0%; height: 100.0%;">Dr. CARLA HERMAN</div>`)[0];
+                popup_1164078e6dc8967c2fb87983ff9a7394.setContent(html_9271d293bfbf2776a50c429573c2a039);
+            
+        
+
+        marker_d0c93671e3179dec4ee1cfae403db971.bindPopup(popup_1164078e6dc8967c2fb87983ff9a7394)
+        ;
+
+        
+    
+    
+                marker_d0c93671e3179dec4ee1cfae403db971.setIcon(icon_cec0dae4b991c30c463d26b6dcb7ae67);
+            
+    
+            var marker_c1ec755fb5ccab27308f15e41be2d09e = L.marker(
+                [35.079, -106.6169],
+                {
+}
+            ).addTo(marker_cluster_f224adc0945c25e554d15ed00dfd1c20);
+        
+    
+            var icon_b1efd653c4470a96eec1803e08b50d8d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "heart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_25bda0e9be823afb457404b6dfa27bde = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_19307ae11c2d130daf478c2fe7c657fa = $(`<div id="html_19307ae11c2d130daf478c2fe7c657fa" style="width: 100.0%; height: 100.0%;">Dr. JANICE KNOEFEL</div>`)[0];
+                popup_25bda0e9be823afb457404b6dfa27bde.setContent(html_19307ae11c2d130daf478c2fe7c657fa);
+            
+        
+
+        marker_c1ec755fb5ccab27308f15e41be2d09e.bindPopup(popup_25bda0e9be823afb457404b6dfa27bde)
+        ;
+
+        
+    
+    
+                marker_c1ec755fb5ccab27308f15e41be2d09e.setIcon(icon_b1efd653c4470a96eec1803e08b50d8d);
+            
+    
+            var marker_c65585d10b573ddabd95e01ab036a267 = L.marker(
+                [35.079, -106.6169],
+                {
+}
+            ).addTo(marker_cluster_f224adc0945c25e554d15ed00dfd1c20);
+        
+    
+            var icon_3c2ba8c861077634e23e0edeec2ab02e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "heart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fea23f38e72b125884d8655ea1377266 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2094c78ce5ed408b758265774184e82c = $(`<div id="html_2094c78ce5ed408b758265774184e82c" style="width: 100.0%; height: 100.0%;">Dr. ALEXANDER DERADKE</div>`)[0];
+                popup_fea23f38e72b125884d8655ea1377266.setContent(html_2094c78ce5ed408b758265774184e82c);
+            
+        
+
+        marker_c65585d10b573ddabd95e01ab036a267.bindPopup(popup_fea23f38e72b125884d8655ea1377266)
+        ;
+
+        
+    
+    
+                marker_c65585d10b573ddabd95e01ab036a267.setIcon(icon_3c2ba8c861077634e23e0edeec2ab02e);
+            
+    
+            var marker_9de2e70fd5153b880984b2844d494c01 = L.marker(
+                [35.079, -106.6169],
+                {
+}
+            ).addTo(marker_cluster_f224adc0945c25e554d15ed00dfd1c20);
+        
+    
+            var icon_efd4187ea7eae8fa633c664b6614305a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "heart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e75fe99897a98938fca166330ff74d1c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_42e41d412a465803fdd51dfdc8777753 = $(`<div id="html_42e41d412a465803fdd51dfdc8777753" style="width: 100.0%; height: 100.0%;">Dr. KEVIN WILLIAMS</div>`)[0];
+                popup_e75fe99897a98938fca166330ff74d1c.setContent(html_42e41d412a465803fdd51dfdc8777753);
+            
+        
+
+        marker_9de2e70fd5153b880984b2844d494c01.bindPopup(popup_e75fe99897a98938fca166330ff74d1c)
+        ;
+
+        
+    
+    
+                marker_9de2e70fd5153b880984b2844d494c01.setIcon(icon_efd4187ea7eae8fa633c664b6614305a);
+            
+    
+            var marker_4aab64c6220c71b4be0c40c6b744dca4 = L.marker(
+                [35.079, -106.6169],
+                {
+}
+            ).addTo(marker_cluster_f224adc0945c25e554d15ed00dfd1c20);
+        
+    
+            var icon_e6cdde82c98e1edc3dc2d825cd4f8bde = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "heart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0b1c12ed958a4128719c91ff82ce27e5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_82683c7163537fb027705d9b621f1c95 = $(`<div id="html_82683c7163537fb027705d9b621f1c95" style="width: 100.0%; height: 100.0%;">Dr. DEVON NEALE</div>`)[0];
+                popup_0b1c12ed958a4128719c91ff82ce27e5.setContent(html_82683c7163537fb027705d9b621f1c95);
+            
+        
+
+        marker_4aab64c6220c71b4be0c40c6b744dca4.bindPopup(popup_0b1c12ed958a4128719c91ff82ce27e5)
+        ;
+
+        
+    
+    
+                marker_4aab64c6220c71b4be0c40c6b744dca4.setIcon(icon_e6cdde82c98e1edc3dc2d825cd4f8bde);
+            
+    
+            var marker_86a221d1ed87a4aa9a236aa9d81a1c80 = L.marker(
+                [35.101, -106.5183],
+                {
+}
+            ).addTo(marker_cluster_f224adc0945c25e554d15ed00dfd1c20);
+        
+    
+            var icon_48bfc4b967529f5ebb3a5b244dbfb4b1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "heart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7767a96675420a0a4ebfc8973f0ef21c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_80e1fcef6cdcc07678417b8fb3166065 = $(`<div id="html_80e1fcef6cdcc07678417b8fb3166065" style="width: 100.0%; height: 100.0%;">Dr. ERIC METZLER</div>`)[0];
+                popup_7767a96675420a0a4ebfc8973f0ef21c.setContent(html_80e1fcef6cdcc07678417b8fb3166065);
+            
+        
+
+        marker_86a221d1ed87a4aa9a236aa9d81a1c80.bindPopup(popup_7767a96675420a0a4ebfc8973f0ef21c)
+        ;
+
+        
+    
+    
+                marker_86a221d1ed87a4aa9a236aa9d81a1c80.setIcon(icon_48bfc4b967529f5ebb3a5b244dbfb4b1);
+            
+    
+            var marker_a13d029370375b9cca05512a5fe5d433 = L.marker(
+                [35.2493, -106.6818],
+                {
+}
+            ).addTo(marker_cluster_f224adc0945c25e554d15ed00dfd1c20);
+        
+    
+            var icon_443c46becd632b7cfd74deeab79e091e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "heart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5033f6024a0da57ca97a20d7e53b3f02 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ec664248cbd43a28c27841082b5bde62 = $(`<div id="html_ec664248cbd43a28c27841082b5bde62" style="width: 100.0%; height: 100.0%;">Dr. VIKRAM ALLADI</div>`)[0];
+                popup_5033f6024a0da57ca97a20d7e53b3f02.setContent(html_ec664248cbd43a28c27841082b5bde62);
+            
+        
+
+        marker_a13d029370375b9cca05512a5fe5d433.bindPopup(popup_5033f6024a0da57ca97a20d7e53b3f02)
+        ;
+
+        
+    
+    
+                marker_a13d029370375b9cca05512a5fe5d433.setIcon(icon_443c46becd632b7cfd74deeab79e091e);
+            
+    
+            var marker_3e45024e9350f085fead433da58c46a4 = L.marker(
+                [35.324, -106.7099],
+                {
+}
+            ).addTo(marker_cluster_f224adc0945c25e554d15ed00dfd1c20);
+        
+    
+            var icon_279a5dbde883c5a5cbf30394f46f0cf7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "heart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_927b95a3f0dcc08a7f5f622d5a88d521 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_35531464d5a45e545b1bd0702b11fd09 = $(`<div id="html_35531464d5a45e545b1bd0702b11fd09" style="width: 100.0%; height: 100.0%;">Dr. KEVIN WILLIAMS</div>`)[0];
+                popup_927b95a3f0dcc08a7f5f622d5a88d521.setContent(html_35531464d5a45e545b1bd0702b11fd09);
+            
+        
+
+        marker_3e45024e9350f085fead433da58c46a4.bindPopup(popup_927b95a3f0dcc08a7f5f622d5a88d521)
+        ;
+
+        
+    
+    
+                marker_3e45024e9350f085fead433da58c46a4.setIcon(icon_279a5dbde883c5a5cbf30394f46f0cf7);
+            
+    
+            var marker_81fdb79ab667cf7c14ad8875a8224786 = L.marker(
+                [35.2493, -106.6818],
+                {
+}
+            ).addTo(marker_cluster_f224adc0945c25e554d15ed00dfd1c20);
+        
+    
+            var icon_6cce0257de7022bb9760b42a80130c7d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "heart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ae7c2ac79d42e06f791368155250c53e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ca6cc2335bb79058e33dc03edd86c754 = $(`<div id="html_ca6cc2335bb79058e33dc03edd86c754" style="width: 100.0%; height: 100.0%;">Dr. JENNIFER DELGADO FELIPA</div>`)[0];
+                popup_ae7c2ac79d42e06f791368155250c53e.setContent(html_ca6cc2335bb79058e33dc03edd86c754);
+            
+        
+
+        marker_81fdb79ab667cf7c14ad8875a8224786.bindPopup(popup_ae7c2ac79d42e06f791368155250c53e)
+        ;
+
+        
+    
+    
+                marker_81fdb79ab667cf7c14ad8875a8224786.setIcon(icon_6cce0257de7022bb9760b42a80130c7d);
+            
+    
+            var marker_3fa77f1edb931ee0388213a8f67dde05 = L.marker(
+                [34.1799, -103.3363],
+                {
+}
+            ).addTo(marker_cluster_f224adc0945c25e554d15ed00dfd1c20);
+        
+    
+            var icon_3d56ebe1999b519079a3a42b1feadeca = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "heart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e1460842ad5f8b87980caf4ab8dcf2d7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0cd6a6ad18e547918347a2203f437f90 = $(`<div id="html_0cd6a6ad18e547918347a2203f437f90" style="width: 100.0%; height: 100.0%;">Dr. PRAVEEN CHAVA</div>`)[0];
+                popup_e1460842ad5f8b87980caf4ab8dcf2d7.setContent(html_0cd6a6ad18e547918347a2203f437f90);
+            
+        
+
+        marker_3fa77f1edb931ee0388213a8f67dde05.bindPopup(popup_e1460842ad5f8b87980caf4ab8dcf2d7)
+        ;
+
+        
+    
+    
+                marker_3fa77f1edb931ee0388213a8f67dde05.setIcon(icon_3d56ebe1999b519079a3a42b1feadeca);
+            
+    
+            var marker_77d8c7c5504dd0e958844d392605126c = L.marker(
+                [35.1506, -106.569],
+                {
+}
+            ).addTo(marker_cluster_f224adc0945c25e554d15ed00dfd1c20);
+        
+    
+            var icon_d4ad00be5e448b68f75d4c458560b353 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "heart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d5bd566afd9f011460db056ba308adcb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_043d65f3b81d59ebd5b76e777fd42a1c = $(`<div id="html_043d65f3b81d59ebd5b76e777fd42a1c" style="width: 100.0%; height: 100.0%;">Dr. LEANDRO CENTENERA</div>`)[0];
+                popup_d5bd566afd9f011460db056ba308adcb.setContent(html_043d65f3b81d59ebd5b76e777fd42a1c);
+            
+        
+
+        marker_77d8c7c5504dd0e958844d392605126c.bindPopup(popup_d5bd566afd9f011460db056ba308adcb)
+        ;
+
+        
+    
+    
+                marker_77d8c7c5504dd0e958844d392605126c.setIcon(icon_d4ad00be5e448b68f75d4c458560b353);
+            
+    
+            var marker_2c05f59083c5ce727666fa845edb3eda = L.marker(
+                [35.2339, -106.62],
+                {
+}
+            ).addTo(marker_cluster_f224adc0945c25e554d15ed00dfd1c20);
+        
+    
+            var icon_3c2b4755515b0194669e00a5cf4d1b66 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "heart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3feeb7ed8aab995cf224c88b177914bc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e35247947d1991c68ec5160fb90fd557 = $(`<div id="html_e35247947d1991c68ec5160fb90fd557" style="width: 100.0%; height: 100.0%;">Dr. DAVID HEMPHILL</div>`)[0];
+                popup_3feeb7ed8aab995cf224c88b177914bc.setContent(html_e35247947d1991c68ec5160fb90fd557);
+            
+        
+
+        marker_2c05f59083c5ce727666fa845edb3eda.bindPopup(popup_3feeb7ed8aab995cf224c88b177914bc)
+        ;
+
+        
+    
+    
+                marker_2c05f59083c5ce727666fa845edb3eda.setIcon(icon_3c2b4755515b0194669e00a5cf4d1b66);
+            
+    
+            var marker_697211eeb7e489632e0c613fb70c7827 = L.marker(
+                [35.6219, -105.8688],
+                {
+}
+            ).addTo(marker_cluster_f224adc0945c25e554d15ed00dfd1c20);
+        
+    
+            var icon_5a3f08fd0c96ff45b0e9505734cd67e4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "heart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bd9f5897f609084695b95634991ccb8d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aba0f4073c0337b0b0a40b30978506b9 = $(`<div id="html_aba0f4073c0337b0b0a40b30978506b9" style="width: 100.0%; height: 100.0%;">Dr. UCHE OBISIKE</div>`)[0];
+                popup_bd9f5897f609084695b95634991ccb8d.setContent(html_aba0f4073c0337b0b0a40b30978506b9);
+            
+        
+
+        marker_697211eeb7e489632e0c613fb70c7827.bindPopup(popup_bd9f5897f609084695b95634991ccb8d)
+        ;
+
+        
+    
+    
+                marker_697211eeb7e489632e0c613fb70c7827.setIcon(icon_5a3f08fd0c96ff45b0e9505734cd67e4);
+            
+    
+            var marker_4ff3942d584e5ee5da21790a903a052c = L.marker(
+                [35.6219, -105.8688],
+                {
+}
+            ).addTo(marker_cluster_f224adc0945c25e554d15ed00dfd1c20);
+        
+    
+            var icon_9ac894f35b8eeaee4cd429916139193e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "heart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b6caa10fb77469ecb0d88ed212f3cdc8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cde58cd0844a2d297ecb0d0301fbe6c0 = $(`<div id="html_cde58cd0844a2d297ecb0d0301fbe6c0" style="width: 100.0%; height: 100.0%;">Dr. AVELINA BARDWELL</div>`)[0];
+                popup_b6caa10fb77469ecb0d88ed212f3cdc8.setContent(html_cde58cd0844a2d297ecb0d0301fbe6c0);
+            
+        
+
+        marker_4ff3942d584e5ee5da21790a903a052c.bindPopup(popup_b6caa10fb77469ecb0d88ed212f3cdc8)
+        ;
+
+        
+    
+    
+                marker_4ff3942d584e5ee5da21790a903a052c.setIcon(icon_9ac894f35b8eeaee4cd429916139193e);
+            
+    
+            var marker_a6fa58893ced990398b908217866d1af = L.marker(
+                [35.1868, -106.6652],
+                {
+}
+            ).addTo(marker_cluster_f224adc0945c25e554d15ed00dfd1c20);
+        
+    
+            var icon_7d9ae77f390be250e03c0a3da2bb69bd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "heart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7c9e1720474882653cc2dc474e06eb98 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5c4e4f0d97482fc314693f7919c199bc = $(`<div id="html_5c4e4f0d97482fc314693f7919c199bc" style="width: 100.0%; height: 100.0%;">Dr. JOHN BOND</div>`)[0];
+                popup_7c9e1720474882653cc2dc474e06eb98.setContent(html_5c4e4f0d97482fc314693f7919c199bc);
+            
+        
+
+        marker_a6fa58893ced990398b908217866d1af.bindPopup(popup_7c9e1720474882653cc2dc474e06eb98)
+        ;
+
+        
+    
+    
+                marker_a6fa58893ced990398b908217866d1af.setIcon(icon_7d9ae77f390be250e03c0a3da2bb69bd);
+            
+    
+            var marker_05db0b630b741c1d34c7555cd3a592dc = L.marker(
+                [35.1347, -106.5222],
+                {
+}
+            ).addTo(marker_cluster_f224adc0945c25e554d15ed00dfd1c20);
+        
+    
+            var icon_4f9dcbc5f88e8a026a37472392071de1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "heart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e98e20325d3b4d8f333525b8094a7432 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7fddbf0b664cbb25252fa99e29f6cfd2 = $(`<div id="html_7fddbf0b664cbb25252fa99e29f6cfd2" style="width: 100.0%; height: 100.0%;">Dr. SHARON KNOBELSDORF</div>`)[0];
+                popup_e98e20325d3b4d8f333525b8094a7432.setContent(html_7fddbf0b664cbb25252fa99e29f6cfd2);
+            
+        
+
+        marker_05db0b630b741c1d34c7555cd3a592dc.bindPopup(popup_e98e20325d3b4d8f333525b8094a7432)
+        ;
+
+        
+    
+    
+                marker_05db0b630b741c1d34c7555cd3a592dc.setIcon(icon_4f9dcbc5f88e8a026a37472392071de1);
+            
+    
+            var marker_42d30c0fe6265187eb32572d8d2f159f = L.marker(
+                [35.6219, -105.8688],
+                {
+}
+            ).addTo(marker_cluster_f224adc0945c25e554d15ed00dfd1c20);
+        
+    
+            var icon_9a5522fc507fe18eedb50577cb830d89 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "heart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b4fbebe7b341826a9b98d228a35bcff2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f7ff772ae5c799c76559d904fe867d67 = $(`<div id="html_f7ff772ae5c799c76559d904fe867d67" style="width: 100.0%; height: 100.0%;">Dr. ANN GARCIA</div>`)[0];
+                popup_b4fbebe7b341826a9b98d228a35bcff2.setContent(html_f7ff772ae5c799c76559d904fe867d67);
+            
+        
+
+        marker_42d30c0fe6265187eb32572d8d2f159f.bindPopup(popup_b4fbebe7b341826a9b98d228a35bcff2)
+        ;
+
+        
+    
+    
+                marker_42d30c0fe6265187eb32572d8d2f159f.setIcon(icon_9a5522fc507fe18eedb50577cb830d89);
+            
+    
+            var marker_47e8ed420c2aeeefd79ccb017aadaeb2 = L.marker(
+                [35.6219, -105.8688],
+                {
+}
+            ).addTo(marker_cluster_f224adc0945c25e554d15ed00dfd1c20);
+        
+    
+            var icon_cc5e4e09cc9562fbd6a21f79a091454c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "heart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_256178b9e73cc767ecc83ea665b00d41 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dd247bcad37a082222503abcd24be038 = $(`<div id="html_dd247bcad37a082222503abcd24be038" style="width: 100.0%; height: 100.0%;">Dr. JILL RHYMES</div>`)[0];
+                popup_256178b9e73cc767ecc83ea665b00d41.setContent(html_dd247bcad37a082222503abcd24be038);
+            
+        
+
+        marker_47e8ed420c2aeeefd79ccb017aadaeb2.bindPopup(popup_256178b9e73cc767ecc83ea665b00d41)
+        ;
+
+        
+    
+    
+                marker_47e8ed420c2aeeefd79ccb017aadaeb2.setIcon(icon_cc5e4e09cc9562fbd6a21f79a091454c);
+            
+    
+            var marker_083029b5ed035a6a91801c82f2194da4 = L.marker(
+                [35.6219, -105.8688],
+                {
+}
+            ).addTo(marker_cluster_f224adc0945c25e554d15ed00dfd1c20);
+        
+    
+            var icon_64a6b572e7a8beecfe8f67b6306b0ac0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "heart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2f17af2ca46eafa3b44a94ca9f0f7a3b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_76f8cb930a93f96c53928b76531878ec = $(`<div id="html_76f8cb930a93f96c53928b76531878ec" style="width: 100.0%; height: 100.0%;">Dr. JULIE SILVERHART</div>`)[0];
+                popup_2f17af2ca46eafa3b44a94ca9f0f7a3b.setContent(html_76f8cb930a93f96c53928b76531878ec);
+            
+        
+
+        marker_083029b5ed035a6a91801c82f2194da4.bindPopup(popup_2f17af2ca46eafa3b44a94ca9f0f7a3b)
+        ;
+
+        
+    
+    
+                marker_083029b5ed035a6a91801c82f2194da4.setIcon(icon_64a6b572e7a8beecfe8f67b6306b0ac0);
+            
+    
+            var marker_000d2b2eddd1637f07bf4203a4180749 = L.marker(
+                [35.1506, -106.569],
+                {
+}
+            ).addTo(marker_cluster_f224adc0945c25e554d15ed00dfd1c20);
+        
+    
+            var icon_730290e877022f80dbb66d47baeb912f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "heart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fb1b66647d6c9d5e8476bb890a084fdd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b8e2cbfc7852e6127caf3697ecb3daa9 = $(`<div id="html_b8e2cbfc7852e6127caf3697ecb3daa9" style="width: 100.0%; height: 100.0%;">Dr. FRANCESCO STANDOLI</div>`)[0];
+                popup_fb1b66647d6c9d5e8476bb890a084fdd.setContent(html_b8e2cbfc7852e6127caf3697ecb3daa9);
+            
+        
+
+        marker_000d2b2eddd1637f07bf4203a4180749.bindPopup(popup_fb1b66647d6c9d5e8476bb890a084fdd)
+        ;
+
+        
+    
+    
+                marker_000d2b2eddd1637f07bf4203a4180749.setIcon(icon_730290e877022f80dbb66d47baeb912f);
+            
+    
+            var marker_414cd5a8ad6f0feeefe1a385db743467 = L.marker(
+                [35.0726, -106.5749],
+                {
+}
+            ).addTo(marker_cluster_f224adc0945c25e554d15ed00dfd1c20);
+        
+    
+            var icon_c60b5e07a8552a7c240f8c8bff1810c2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "heart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ca6fc5b5b1a4a9afe2d15d8a715e6bfb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4f264d63d474ae0ccf1e301ca7208f03 = $(`<div id="html_4f264d63d474ae0ccf1e301ca7208f03" style="width: 100.0%; height: 100.0%;">Dr. ERIC METZLER</div>`)[0];
+                popup_ca6fc5b5b1a4a9afe2d15d8a715e6bfb.setContent(html_4f264d63d474ae0ccf1e301ca7208f03);
+            
+        
+
+        marker_414cd5a8ad6f0feeefe1a385db743467.bindPopup(popup_ca6fc5b5b1a4a9afe2d15d8a715e6bfb)
+        ;
+
+        
+    
+    
+                marker_414cd5a8ad6f0feeefe1a385db743467.setIcon(icon_c60b5e07a8552a7c240f8c8bff1810c2);
+            
+    
+            var marker_ffdf379c86bfb92a4eba852f08b11409 = L.marker(
+                [35.0818, -106.6482],
+                {
+}
+            ).addTo(marker_cluster_f224adc0945c25e554d15ed00dfd1c20);
+        
+    
+            var icon_2bdf1d2f040fae05cbab9f3045b75e14 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "heart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e0186ca71a7f28ad4522bbb301e5218a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_585755f0aa0524bfc0b3dda3c440be04 = $(`<div id="html_585755f0aa0524bfc0b3dda3c440be04" style="width: 100.0%; height: 100.0%;">Dr. VIKRAM ALLADI</div>`)[0];
+                popup_e0186ca71a7f28ad4522bbb301e5218a.setContent(html_585755f0aa0524bfc0b3dda3c440be04);
+            
+        
+
+        marker_ffdf379c86bfb92a4eba852f08b11409.bindPopup(popup_e0186ca71a7f28ad4522bbb301e5218a)
+        ;
+
+        
+    
+    
+                marker_ffdf379c86bfb92a4eba852f08b11409.setIcon(icon_2bdf1d2f040fae05cbab9f3045b75e14);
+            
+    
+            var marker_e66b35b4c6da15c643f42a76422965fc = L.marker(
+                [36.7412, -108.1797],
+                {
+}
+            ).addTo(marker_cluster_f224adc0945c25e554d15ed00dfd1c20);
+        
+    
+            var icon_7d839605991243f8576af3a7733ae623 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "heart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ec83b28f51ad5b4fd605f148464ad16b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2e1980dffc6a4560d3dcf9b04d00494e = $(`<div id="html_2e1980dffc6a4560d3dcf9b04d00494e" style="width: 100.0%; height: 100.0%;">Dr. ABDO SAAD</div>`)[0];
+                popup_ec83b28f51ad5b4fd605f148464ad16b.setContent(html_2e1980dffc6a4560d3dcf9b04d00494e);
+            
+        
+
+        marker_e66b35b4c6da15c643f42a76422965fc.bindPopup(popup_ec83b28f51ad5b4fd605f148464ad16b)
+        ;
+
+        
+    
+    
+                marker_e66b35b4c6da15c643f42a76422965fc.setIcon(icon_7d839605991243f8576af3a7733ae623);
+            
+    
+            var marker_3b8417c53471e1e16b91388da8989315 = L.marker(
+                [35.1506, -106.569],
+                {
+}
+            ).addTo(marker_cluster_f224adc0945c25e554d15ed00dfd1c20);
+        
+    
+            var icon_e200941ca39d5c3fc92cdc95cbb9faff = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "heart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_686d4f7abe7962ec686ab7425525dc81 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_76eb16e38f1f92be942ae8029310e48a = $(`<div id="html_76eb16e38f1f92be942ae8029310e48a" style="width: 100.0%; height: 100.0%;">Dr. RICHARD ROCHE</div>`)[0];
+                popup_686d4f7abe7962ec686ab7425525dc81.setContent(html_76eb16e38f1f92be942ae8029310e48a);
+            
+        
+
+        marker_3b8417c53471e1e16b91388da8989315.bindPopup(popup_686d4f7abe7962ec686ab7425525dc81)
+        ;
+
+        
+    
+    
+                marker_3b8417c53471e1e16b91388da8989315.setIcon(icon_e200941ca39d5c3fc92cdc95cbb9faff);
+            
+    
+            var marker_6ea66a5483d30689c4ddce3325de7491 = L.marker(
+                [35.0818, -106.6482],
+                {
+}
+            ).addTo(marker_cluster_f224adc0945c25e554d15ed00dfd1c20);
+        
+    
+            var icon_c1b76bd31afc33c3decf6f35ad039228 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "heart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_99bdab4164084273ce8a32e19905a29b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_194ad3ae741bf50467b65fb4e77ddd92 = $(`<div id="html_194ad3ae741bf50467b65fb4e77ddd92" style="width: 100.0%; height: 100.0%;">Dr. RICHARD ROCHE</div>`)[0];
+                popup_99bdab4164084273ce8a32e19905a29b.setContent(html_194ad3ae741bf50467b65fb4e77ddd92);
+            
+        
+
+        marker_6ea66a5483d30689c4ddce3325de7491.bindPopup(popup_99bdab4164084273ce8a32e19905a29b)
+        ;
+
+        
+    
+    
+                marker_6ea66a5483d30689c4ddce3325de7491.setIcon(icon_c1b76bd31afc33c3decf6f35ad039228);
+            
+    
+            var marker_8db875fb383ea0bb6e6e7c6741ce1636 = L.marker(
+                [33.1606, -107.2669],
+                {
+}
+            ).addTo(marker_cluster_f224adc0945c25e554d15ed00dfd1c20);
+        
+    
+            var icon_170e2d9114188067f641323c218672ed = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "heart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d569f72492771a01e335e356004baae8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_842eac037e30e83545b0f330e3ed8635 = $(`<div id="html_842eac037e30e83545b0f330e3ed8635" style="width: 100.0%; height: 100.0%;">Dr. FRANCISCO RALLS</div>`)[0];
+                popup_d569f72492771a01e335e356004baae8.setContent(html_842eac037e30e83545b0f330e3ed8635);
+            
+        
+
+        marker_8db875fb383ea0bb6e6e7c6741ce1636.bindPopup(popup_d569f72492771a01e335e356004baae8)
+        ;
+
+        
+    
+    
+                marker_8db875fb383ea0bb6e6e7c6741ce1636.setIcon(icon_170e2d9114188067f641323c218672ed);
+            
+    
+            var marker_7d785d41d2828f0d53affd0d1968a176 = L.marker(
+                [35.1104, -106.5781],
+                {
+}
+            ).addTo(marker_cluster_f224adc0945c25e554d15ed00dfd1c20);
+        
+    
+            var icon_01751792e2487c41f867d6f51485413c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "heart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_02f52cd043b695295cf2dc2c900fae9f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ff5337c345a3eacf5ce200cc7640a197 = $(`<div id="html_ff5337c345a3eacf5ce200cc7640a197" style="width: 100.0%; height: 100.0%;">Dr. TOUFIC TANNOUS</div>`)[0];
+                popup_02f52cd043b695295cf2dc2c900fae9f.setContent(html_ff5337c345a3eacf5ce200cc7640a197);
+            
+        
+
+        marker_7d785d41d2828f0d53affd0d1968a176.bindPopup(popup_02f52cd043b695295cf2dc2c900fae9f)
+        ;
+
+        
+    
+    
+                marker_7d785d41d2828f0d53affd0d1968a176.setIcon(icon_01751792e2487c41f867d6f51485413c);
+            
+    
+            var marker_d139c4e1fb7bca4489505b4676c495c0 = L.marker(
+                [35.1347, -106.5222],
+                {
+}
+            ).addTo(marker_cluster_f224adc0945c25e554d15ed00dfd1c20);
+        
+    
+            var icon_69f313e6348d77d339c5a8e09208e7e2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "heart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8f555b5b7fd00a84d618ef266acfdd4c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_113e7372998cd35f84ed7c9c7107e3e7 = $(`<div id="html_113e7372998cd35f84ed7c9c7107e3e7" style="width: 100.0%; height: 100.0%;">Dr. CHRISTINA BUNGO</div>`)[0];
+                popup_8f555b5b7fd00a84d618ef266acfdd4c.setContent(html_113e7372998cd35f84ed7c9c7107e3e7);
+            
+        
+
+        marker_d139c4e1fb7bca4489505b4676c495c0.bindPopup(popup_8f555b5b7fd00a84d618ef266acfdd4c)
+        ;
+
+        
+    
+    
+                marker_d139c4e1fb7bca4489505b4676c495c0.setIcon(icon_69f313e6348d77d339c5a8e09208e7e2);
+            
+    
+            var marker_67c01fb4341f04a4dbc62a6b99a9e79d = L.marker(
+                [32.2318, -107.7466],
+                {
+}
+            ).addTo(marker_cluster_f224adc0945c25e554d15ed00dfd1c20);
+        
+    
+            var icon_04723a3c51ec6445ee90f1543fc7656c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "heart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3104585066ba3ce118a3615cd4c44447 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e12221bc4181749abc6c9417e0d59957 = $(`<div id="html_e12221bc4181749abc6c9417e0d59957" style="width: 100.0%; height: 100.0%;">Dr. SYED MAHDI</div>`)[0];
+                popup_3104585066ba3ce118a3615cd4c44447.setContent(html_e12221bc4181749abc6c9417e0d59957);
+            
+        
+
+        marker_67c01fb4341f04a4dbc62a6b99a9e79d.bindPopup(popup_3104585066ba3ce118a3615cd4c44447)
+        ;
+
+        
+    
+    
+                marker_67c01fb4341f04a4dbc62a6b99a9e79d.setIcon(icon_04723a3c51ec6445ee90f1543fc7656c);
+            
+    
+            var marker_ed89264e0fea8bbdf389d92d0a15dd3f = L.marker(
+                [33.1606, -107.2669],
+                {
+}
+            ).addTo(marker_cluster_f224adc0945c25e554d15ed00dfd1c20);
+        
+    
+            var icon_3471c68f1e52708b99f997c19034bcc7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "heart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c5e07806fbde458d51f67d408dcb2fc8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_47217f68d4c895130232025541292bc8 = $(`<div id="html_47217f68d4c895130232025541292bc8" style="width: 100.0%; height: 100.0%;">Dr. ADEKUNLE ADEDEJI</div>`)[0];
+                popup_c5e07806fbde458d51f67d408dcb2fc8.setContent(html_47217f68d4c895130232025541292bc8);
+            
+        
+
+        marker_ed89264e0fea8bbdf389d92d0a15dd3f.bindPopup(popup_c5e07806fbde458d51f67d408dcb2fc8)
+        ;
+
+        
+    
+    
+                marker_ed89264e0fea8bbdf389d92d0a15dd3f.setIcon(icon_3471c68f1e52708b99f997c19034bcc7);
+            
+    
+            marker_cluster_f224adc0945c25e554d15ed00dfd1c20.addTo(map_e67932074dde2a5233f332b374edcd0f);
+        
+    
+            var layer_control_a0dab6043b719d87d96c0abe39de253a_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_fb0d7aff13b82b9ab997f9f18cdcd3a9,
+                },
+                overlays :  {
+                    "Geritric Medicine" : marker_cluster_f224adc0945c25e554d15ed00dfd1c20,
+                },
+            };
+            let layer_control_a0dab6043b719d87d96c0abe39de253a = L.control.layers(
+                layer_control_a0dab6043b719d87d96c0abe39de253a_layers.base_layers,
+                layer_control_a0dab6043b719d87d96c0abe39de253a_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": true,
+  "autoZIndex": true,
+}
+            ).addTo(map_e67932074dde2a5233f332b374edcd0f);
+
+        
+</script>
+</html>
